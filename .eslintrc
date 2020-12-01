@@ -3,6 +3,11 @@
     "browser": true,
     "node": true
   },
+  "parser": "react-scripts/node_modules/babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
   "extends": ["airbnb", "prettier", "prettier/react"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
